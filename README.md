@@ -6,5 +6,19 @@
 2. cart total is between zero and threshold it will show distance to free shipping message.
 3. cart total is more than threshold then it will show the free shipping message.
 
+
 ---
 **Install**
+=======
+ 
+To install the packagist run the following command:
+>composer require ismail/module-freeshippingpromo
+
+after downloading the package successfully via git hub, then run the below commands:
+> bin/magento modue:enable Ismail_FreeShippingPromo
+> 
+> bin/magento set:up
+> 
+> bin/magento setup:static-content:deploy
+
+
