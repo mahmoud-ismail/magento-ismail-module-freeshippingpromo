@@ -1,0 +1,1 @@
+# magento-ismail-module-freeshippingpromo
