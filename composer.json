@@ -1,0 +1,21 @@
+{
+    "name": "ismail/module-freeshippingpromo",
+    "description": "this module is adding a distance to free shipping message based on the total amount on cart",
+    "require": {
+        "php": "~7.2.0|~7.3.0|~7.4.0"
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ismail\\FreeShippingPromo\\": ""
+        }
+    }
+}
